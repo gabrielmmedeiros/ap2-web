@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+@keyframes blink {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+p,a {
+  font-family: 'Neuton', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Alumni Sans Inline One', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+body{
+  display: block;
+  max-height: 768px;
+  background-image: url('agora\ vai.jpeg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Garante que a imagem cubra toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */ 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+
+#secreta button {
+    margin-right: 0px;
+    color: #161515;
+    border: none;
+    background-color:rgb(238, 228, 228);
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+.atleta {
+    text-align: center;
+  }
+  
+  .atleta img {
+    max-width: 10%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .atleta  p{
+    font-size: 16px;
+    color:rgb(238, 228, 228);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+

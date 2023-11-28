@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+@keyframes blink {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+p,a {
+  font-family: 'Neuton', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Alumni Sans Inline One', sans-serif;
+  font-weight: normal;
+}
+body{
+  height: 100%;
+  margin: 0;
+  max-height: 768px;
+}
+
+#planodefundo2{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px auto;
+  padding: 0px;
+  background-image: url('wepik-export-202311270357184afT.jpeg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Garante que a imagem cubra toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */ 
+
+
+}
+
+#container-entrada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px auto;
+  padding: 0px;
+  background-image: url('wepik-export-202311270357184afT.jpeg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Garante que a imagem cubra toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */ 
+}
+
+#parteoculta, #formulario {
+  text-align: center;
+}
+#parteoculta h1 {
+  margin: 0px;
+}
+
+#parteoculta p {
+  margin: 0px auto;
+  max-width: 200em;
+}
+
+#formulario input {
+  padding: 0.3em;
+  margin: 0.5em;
+}
+
+#formulario button {
+  background-color: black;
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+#formulario p {
+  margin: 0px auto;
+}
+
+#planodefundo{
+  height: 100%;
+  height: 100vh;
+  background-image: url('wepik-export-20231127040845uLQJ.jpeg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Garante que a imagem cubra toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */ 
+
+}
+#paginaprincipal{
+    background-image: url('wepik-export-20231127040845uLQJ.jpeg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Garante que a imagem cubra toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */ 
+}
+
+
+
+#espacamento {
+  height: 200px; /* Altura do espaçamento desejado */
+  /* Outros estilos, como cor de fundo, margem, etc., conforme necessário */
+}
+
+
+
+
+#meuBotao4 {
+  display: none;
+  margin-right: 10px;
+  background-color: #161515;
+  border: none;
+  padding: 0.5em 1.11em;
+  cursor: pointer;
+  background-image: url('botao-de-menu\ \(1\).png'); /* Substitua com o caminho para sua imagem */
+  background-size: cover;
+  
+}
+
+/* Media query para tela de até 769px */
+@media screen and (max-width: 769px) {
+  #meuBotao4 {
+    display: block; /* Mostra o botão quando a tela for de 769px ou menos */
+    /* Estilos adicionais conforme necessário */
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #botoesContainer button {
+    display: none;
+  }
+}
+
+#meuBotao4.clicado + #botoesContainer button {
+  display: inline-block;
+}
+
+
+
+#meuBotao{
+  padding: 0.5em 1em;
+  background-color: #161515;
+  border: none;
+  color: rgb(238, 228, 228);
+  cursor: pointer;
+}
+
+#meuBotao2{
+  padding: 0.5em 1em;
+  background-color: #161515;
+  border: none;
+  color: rgb(238, 228, 228); 
+  cursor: pointer;
+}
+
+#meuBotao3{
+  padding: 0.5em 1em;
+  background-color: #161515;
+  color: rgb(238, 228, 228);
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+#teste {
+  position: fixed;
+  width: 100%;
+  max-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #161515;
+  color: rgb(238, 228, 228);
+  padding: 20px;
+  z-index: 2;
+  transition: top 0.3s ease; /* Adicionando transição para um efeito suave */
+}
+
+#teste h1 {
+  margin-left: 1px;
+  margin-right: 50px;
+  margin-top: 0px;
+}
+
+
+#secreta button {
+  margin-right: 50px;
+  color: rgb(238, 228, 228);
+  border: none;
+  background-color: #161515;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#containerAtletas {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr; 
+}
+
+
+@media (min-width: 768px) {
+  #containerAtletas {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (min-width: 769px) {
+  #containerAtletas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 1025px) {
+  #containerAtletas {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+
+#containerAtletas2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr; 
+}
+
+
+@media (min-width: 768px) {
+  #containerAtletas2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (min-width: 769px) {
+  #containerAtletas2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 1025px) {
+  #containerAtletas2 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+#containerAtletas3 {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr; 
+}
+
+
+@media (min-width: 768px) {
+  #containerAtletas3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (min-width: 769px) {
+  #containerAtletas3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 1025px) {
+  #containerAtletas3 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.atleta {
+  text-align: center;
+  border: 10px solid #201e1e;
+  padding: 0px;
+  width: calc(25% - 20px); /* Largura inicial */
+  min-width: 232px; /* Largura mínima para garantir visibilidade */
+  margin-bottom: 20px; /* Espaçamento inferior */
+  background-color: black;
+  flex-grow: 1;
+}
+
+.atleta img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.atleta button {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: black;
+  color: rgb(238, 228, 228);
+  border: none;
+  cursor: pointer;
+}
+.atleta  p{
+  font-size: 16px;
+  color:rgb(238, 228, 228);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.atleta button:hover {
+    color: rgb(163, 163, 140);
+  
+}
+
+
+
+
+
+
+
